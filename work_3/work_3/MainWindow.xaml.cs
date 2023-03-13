@@ -37,5 +37,15 @@ namespace work_3
             txtFT.Text = string.Format("{0:0.##########}", douCM / 30.48);
             txtYard.Text = string.Format("{0:0.##########}", douCM / 91.44);
         }
+
+        private void btnAllClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtCM.Text = "";
+            txtM.Text = "";
+            txtKM.Text = "";
+            txtIN.Text = "";
+            txtFT.Text = "";
+            txtYard.Text = "";
+        }
     }
 }
