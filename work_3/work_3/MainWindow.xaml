@@ -12,14 +12,14 @@
         <Label x:Name="M" Content="公尺" HorizontalAlignment="Left" Height="41" Margin="321,83,0,0" VerticalAlignment="Top" Width="79" FontSize="20"/>
         <Label x:Name="KM" Content="公里" HorizontalAlignment="Left" Height="41" Margin="560,83,0,0" VerticalAlignment="Top" Width="79" FontSize="20"/>
         <TextBox x:Name="txtCM" HorizontalAlignment="Left" Height="40" Margin="80,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28" KeyUp="txtCM_KeyUp"/>
-        <TextBox x:Name="txtM" HorizontalAlignment="Center" Height="40" Margin="0,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28"/>
-        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Height="40" Margin="560,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Center" Height="40" Margin="0,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28" KeyUp="txtM_KeyUp"/>
+        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Height="40" Margin="560,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28" KeyUp="txtKM_KeyUp"/>
         <Label x:Name="IN" Content="英寸" HorizontalAlignment="Left" Height="41" Margin="80,0,0,0" VerticalAlignment="Center" Width="79" FontSize="20"/>
         <Label x:Name="FT" Content="英尺" HorizontalAlignment="Left" Height="41" Margin="321,0,0,0" VerticalAlignment="Center" Width="79" FontSize="20"/>
         <Label x:Name="Yard" Content="碼" HorizontalAlignment="Left" Height="41" Margin="560,0,0,0" VerticalAlignment="Center" Width="79" FontSize="20"/>
-        <TextBox x:Name="txtIN" HorizontalAlignment="Left" Height="40" Margin="80,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28"/>
-        <TextBox x:Name="txtFT" HorizontalAlignment="Center" Height="40" Margin="0,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28"/>
-        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Height="40" Margin="560,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28"/>
+        <TextBox x:Name="txtIN" HorizontalAlignment="Left" Height="40" Margin="80,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28" KeyUp="txtIN_KeyUp"/>
+        <TextBox x:Name="txtFT" HorizontalAlignment="Center" Height="40" Margin="0,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28" KeyUp="txtFT_KeyUp"/>
+        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Height="40" Margin="560,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" FontSize="28" KeyUp="txtYard_KeyUp"/>
         <Label x:Name="Info" Content="文字説明" HorizontalAlignment="Left" Height="41" Margin="80,328,0,0" VerticalAlignment="Top" Width="96" FontSize="20"/>
         <TextBox x:Name="txtInfo" HorizontalAlignment="Center" Height="40" Margin="0,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="638" FontSize="28"/>
 
